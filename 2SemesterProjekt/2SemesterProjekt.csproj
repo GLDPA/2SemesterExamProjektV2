@@ -131,6 +131,38 @@
       <Version>5.4.0</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CatalogImplementation">
+      <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\CatalogImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="CatalogInterfaces">
+      <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\CatalogInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandImplementation">
+      <HintPath>..\..\MVVMStarterLibrary\CommandImplementation\bin\Debug\CommandImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandInterfaces">
+      <HintPath>..\..\MVVMStarterLibrary\CommandImplementation\bin\Debug\CommandInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="DataTransformationImplementation">
+      <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\DataTransformationImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="DataTransformationInterfaces">
+      <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\DataTransformationInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="InMemoryStorageImplementation">
+      <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\InMemoryStorageImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="InMemoryStorageInterfaces">
+      <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\InMemoryStorageInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="PersistencyImplementation">
+      <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\PersistencyImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="PersistencyInterfaces">
+      <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\PersistencyInterfaces.dll</HintPath>
+    </Reference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
