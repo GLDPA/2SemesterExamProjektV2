@@ -97,8 +97,12 @@
     </Compile>
     <Compile Include="Customer .cs" />
     <Compile Include="CustomerCatalog.cs" />
+    <Compile Include="CustomerDetailsViewModel.cs" />
+    <Compile Include="CustomerItemViewModel.cs" />
+    <Compile Include="CustomerMasterDetailsViewModel.cs" />
     <Compile Include="CustomerViewModel.cs" />
     <Compile Include="CustomerViewModelFactory.cs" />
+    <Compile Include="CustomerVMFactory.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -157,6 +161,9 @@
     <Reference Include="ExtensionsModel">
       <HintPath>..\..\MVVMStarterLibrary\ExtensionsModel\bin\Debug\ExtensionsModel.dll</HintPath>
     </Reference>
+    <Reference Include="ExtensionsViewModel">
+      <HintPath>..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ExtensionsViewModel.dll</HintPath>
+    </Reference>
     <Reference Include="InMemoryStorageImplementation">
       <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\InMemoryStorageImplementation.dll</HintPath>
     </Reference>
@@ -168,6 +175,12 @@
     </Reference>
     <Reference Include="PersistencyInterfaces">
       <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\PersistencyInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ViewModelImplementation">
+      <HintPath>..\..\MVVMStarterLibrary\ViewModelImplementation\bin\Debug\ViewModelImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="ViewModelInterfaces">
+      <HintPath>..\..\MVVMStarterLibrary\ViewModelInterfaces\bin\Debug\ViewModelInterfaces.dll</HintPath>
     </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

@@ -12,5 +12,14 @@ namespace _2SemesterProjekt
    {
        
         public int Key { get; set; }
-    }
+       public ITransformed<Customer> Clone()
+       {
+           throw new NotImplementedException();
+       }
+
+       public void SetValuesFromObject(Customer obj)
+       {
+           throw new NotImplementedException();
+       }
+   }
 }
