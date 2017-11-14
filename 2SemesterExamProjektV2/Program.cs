@@ -11,6 +11,7 @@ namespace _2SemesterExamProjektV2
         static void Main(string[] args)
         {
             Console.WriteLine("Masturbation");
+            Console.ReadLine();
         }
     }
 }
