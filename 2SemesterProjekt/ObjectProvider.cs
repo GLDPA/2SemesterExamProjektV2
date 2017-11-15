@@ -8,14 +8,14 @@ namespace _2SemesterProjekt
 {
     class ObjectProvider
     {
-        public static SummerHouseCatalog SummerHouseCatalog
+        public static SummerHouseCatalog SummerHouseCatalog 
         {
             get { return SummerHouseCatalog.Instance; }
         }
 
-        public static CustomerCatalog CustomerCatalog
-        {
-            get { return CustomerCatalog.Instance; }
-        }
+        //public static CustomerCatalog CustomerCatalog
+        //{
+        //    get { return CustomerCatalog.Instance; }
+        //}
     }
 }
