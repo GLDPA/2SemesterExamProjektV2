@@ -164,22 +164,23 @@
     <Reference Include="CommandInterfaces">
       <HintPath>..\..\MVVMStarterLibrary\CommandImplementation\bin\Debug\CommandInterfaces.dll</HintPath>
     </Reference>
+    <Reference Include="ControlState">
+      <HintPath>..\..\MVVMStarterLibrary\ControlState\bin\Debug\ControlState.dll</HintPath>
+    </Reference>
     <Reference Include="DataTransformationImplementation">
       <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\DataTransformationImplementation.dll</HintPath>
     </Reference>
     <Reference Include="DataTransformationInterfaces">
       <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\DataTransformationInterfaces.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
     <Reference Include="ExtensionsViewModel">
       <HintPath>..\..\MVVMStarterLibrary\ExtensionsViewModel\obj\Debug\ExtensionsViewModel.dll</HintPath>
-=======
+    </Reference>
     <Reference Include="ExtensionsModel">
       <HintPath>..\..\MVVMStarterLibrary\ExtensionsModel\bin\Debug\ExtensionsModel.dll</HintPath>
     </Reference>
     <Reference Include="ExtensionsViewModel">
       <HintPath>..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ExtensionsViewModel.dll</HintPath>
->>>>>>> Kunde
     </Reference>
     <Reference Include="InMemoryStorageImplementation">
       <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\InMemoryStorageImplementation.dll</HintPath>
@@ -199,7 +200,9 @@
     <Reference Include="ViewModelInterfaces">
       <HintPath>..\..\MVVMStarterLibrary\ViewModelInterfaces\bin\Debug\ViewModelInterfaces.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
+    <Reference Include="ViewState">
+      <HintPath>..\..\MVVMStarterLibrary\ViewState\bin\Debug\ViewState.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\CatalogImplementation.dll" />
@@ -228,8 +231,6 @@
     <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ViewModelInterfaces.dll" />
     <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ViewState.dll" />
     <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\WebAPI.dll" />
-=======
->>>>>>> Kunde
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
