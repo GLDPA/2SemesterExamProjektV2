@@ -15,7 +15,7 @@ namespace _2SemesterProjekt
    {
        private static CustomerCatalog _instance;
        
-       public CustomerCatalog(IFactory<Customer, CustomerViewModel> vmFactory) : base(new CustomerViewModelFactory())
+       public CustomerCatalog() : base(new CustomerViewModelFactory())
        {
        }
 
@@ -25,7 +25,7 @@ namespace _2SemesterProjekt
             {
                if (_instance == null)
                {
-                   _instance = new CustomerCatalog(new CustomerViewModelFactory());
+                   _instance = new CustomerCatalog();
                }
                return _instance;
            } 

@@ -10,6 +10,16 @@ namespace _2SemesterProjekt
 {
    public class Customer : IStorable, ITransformed<Customer>
    {
+
+       public string Name { get; set; }
+       public int Age { get; set; }
+       public string Email { get; set; }
+       public int PhoneNumber { get; set; }
+       public int CardNumber { get; set; }
+       public int CVRNumber { get; set; }
+       public int ExpirationMonth { get; set; }
+       public int ExpirationYear { get; set; }
+
        
         public int Key { get; set; }
        public ITransformed<Customer> Clone()
@@ -21,5 +31,8 @@ namespace _2SemesterProjekt
        {
            throw new NotImplementedException();
        }
+
+
+       
    }
 }
