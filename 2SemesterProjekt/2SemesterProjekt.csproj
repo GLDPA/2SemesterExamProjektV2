@@ -99,6 +99,14 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sommerhus.cs" />
+    <Compile Include="SommerhusVM.cs" />
+    <Compile Include="SommerhusVmFactory.cs" />
+    <Compile Include="SummerHouseCatalog.cs" />
+    <Compile Include="SummerHouseDeatailsVm.cs" />
+    <Compile Include="SummerHouseItemVm.cs" />
+    <Compile Include="SummerHouseMasterDeatailsVm.cs" />
+    <Compile Include="SummerhouseVmFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -125,10 +133,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="SummerHouseView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>5.4.0</Version>
+      <Version>6.0.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -150,6 +162,9 @@
     <Reference Include="DataTransformationInterfaces">
       <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\DataTransformationInterfaces.dll</HintPath>
     </Reference>
+    <Reference Include="ExtensionsViewModel">
+      <HintPath>..\..\MVVMStarterLibrary\ExtensionsViewModel\obj\Debug\ExtensionsViewModel.dll</HintPath>
+    </Reference>
     <Reference Include="InMemoryStorageImplementation">
       <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\InMemoryStorageImplementation.dll</HintPath>
     </Reference>
@@ -162,6 +177,40 @@
     <Reference Include="PersistencyInterfaces">
       <HintPath>..\..\MVVMStarterLibrary\CatalogImplementation\bin\Debug\PersistencyInterfaces.dll</HintPath>
     </Reference>
+    <Reference Include="ViewModelImplementation">
+      <HintPath>..\..\MVVMStarterLibrary\ViewModelImplementation\bin\Debug\ViewModelImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="ViewModelInterfaces">
+      <HintPath>..\..\MVVMStarterLibrary\ViewModelInterfaces\bin\Debug\ViewModelInterfaces.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\CatalogImplementation.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\CatalogInterfaces.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\CommandImplementation.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\CommandInterfaces.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ControllerInterfaces.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ControlState.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\DataCommandImplementation.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\DataControllerImplementation.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\DataTransformationImplementation.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\DataTransformationInterfaces.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ExtensionsCommands.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ExtensionsModel.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ExtensionsServices.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ExtensionsViewModel.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\FilePersistency.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\Images.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\InMemoryStorageImplementation.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\InMemoryStorageInterfaces.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\PersistencyImplementation.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\PersistencyInterfaces.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\Security.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\StringPersistencyInterfaces.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ViewModelImplementation.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ViewModelInterfaces.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ViewState.dll" />
+    <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\WebAPI.dll" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
