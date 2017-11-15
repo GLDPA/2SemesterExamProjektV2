@@ -8,7 +8,7 @@ using ViewModel.Implementation;
 
 namespace _2SemesterProjekt
 {
-    class SummerhouseVmFactory : ViewModelFactoryBase<Sommerhus, SommerhusVm>
+    class SummerhouseVmFactory2 : ViewModelFactoryBase<SummerHouse, SommerhusVm>
     {
         public override IDataWrapper<SommerhusVm> CreateDetailsViewModel(SommerhusVm obj)
         {

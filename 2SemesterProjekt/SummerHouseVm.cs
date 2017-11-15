@@ -7,9 +7,9 @@ using DataTransformation.Implementation;
 
 namespace _2SemesterProjekt
 {
-    public class SommerhusVm :TransformedBase<Sommerhus>
+    public class SommerhusVm :TransformedBase<SummerHouse>
     {
-        public override void SetValuesFromObject(Sommerhus obj)
+        public override void SetValuesFromObject(SummerHouse obj)
         {
             throw new NotImplementedException();
         }

@@ -9,9 +9,9 @@ using ViewModel.Interfaces;
 
 namespace _2SemesterProjekt
 {
-    class SummerHouseMasterDeatailsVm: MasterDetailsViewModelCRUD<Sommerhus,SommerhusVm,Sommerhus>
+    class SummerHouseMasterDeatailsVm: MasterDetailsViewModelCRUD<SummerHouse,SommerhusVm,SummerHouse>
     {
-        public SummerHouseMasterDeatailsVm(IViewModelFactory<SommerhusVm> viewModelFactory, PersistableCatalog<Sommerhus, SommerhusVm, Sommerhus> catalog, List<string> immutableControls, List<string> mutableControls) : base(viewModelFactory, catalog, immutableControls, mutableControls)
+        public SummerHouseMasterDeatailsVm(IViewModelFactory<SommerhusVm> viewModelFactory, PersistableCatalog<SummerHouse, SommerhusVm, SummerHouse> catalog, List<string> immutableControls, List<string> mutableControls) : base(viewModelFactory, catalog, immutableControls, mutableControls)
         {
         }
     }

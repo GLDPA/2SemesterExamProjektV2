@@ -7,7 +7,7 @@ using InMemoryStorage.Implementation;
 
 namespace _2SemesterProjekt 
 {
-    public class Sommerhus : StorableBase
+    public class SummerHouse : StorableBase
     {
     }
 }
