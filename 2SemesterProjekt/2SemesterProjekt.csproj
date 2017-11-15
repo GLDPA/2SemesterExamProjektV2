@@ -107,14 +107,14 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SummerHouse.cs" />
-    <Compile Include="SummerHouseVm.cs" />
-    <Compile Include="SummerHouseVmFactory1.cs" />
-    <Compile Include="SummerHouseCatalog.cs" />
-    <Compile Include="SummerHouseDeatailsVm.cs" />
-    <Compile Include="SummerHouseItemVm.cs" />
-    <Compile Include="SummerHouseMasterDeatailsVm.cs" />
-    <Compile Include="SummerhouseVmFactory2.cs" />
+    <Compile Include="SummerHouse\SummerHouse.cs" />
+    <Compile Include="SummerHouse\SummerHouseVm.cs" />
+    <Compile Include="SummerHouse\SummerHouseVmFactory1.cs" />
+    <Compile Include="SummerHouse\SummerHouseCatalog.cs" />
+    <Compile Include="SummerHouse\SummerHouseDeatailsVm.cs" />
+    <Compile Include="SummerHouse\SummerHouseItemVm.cs" />
+    <Compile Include="SummerHouse\SummerHouseMasterDeatailsVm.cs" />
+    <Compile Include="SummerHouse\SummerhouseVmFactory2.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -141,7 +141,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SummerHouseView.xaml">
+    <Page Include="SummerHouse\SummerHouseView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

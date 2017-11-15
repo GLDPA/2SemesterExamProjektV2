@@ -12,12 +12,12 @@ namespace _2SemesterProjekt
     {
         public override IDataWrapper<SommerhusVm> CreateDetailsViewModel(SommerhusVm obj)
         {
-            throw new NotImplementedException();
+            return new SummerHouseDeatailsVm(obj);
         }
 
         public override IDataWrapper<SommerhusVm> CreateItemViewModel(SommerhusVm obj)
         {
-            throw new NotImplementedException();
+            return new SummerHouseItemVm(obj);
         }
     }
 }

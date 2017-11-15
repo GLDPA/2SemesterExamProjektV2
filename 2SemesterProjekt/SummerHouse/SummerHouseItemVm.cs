@@ -9,8 +9,15 @@ namespace _2SemesterProjekt
 {
     class SummerHouseItemVm: DataWrapper<SommerhusVm>
     {
-        protected SummerHouseItemVm(SommerhusVm obj) : base(obj)
+        public SummerHouseItemVm(SommerhusVm obj) 
+            : base(obj)
         {
         }
+
+        public string Description
+        {
+            get { return DataObject.StreetName; }
+        }
+
     }
 }
