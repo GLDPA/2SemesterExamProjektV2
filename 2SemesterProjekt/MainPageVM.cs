@@ -14,9 +14,5 @@ namespace _2SemesterProjekt
             
         }
 
-        public NavigateToSummerHouseView ToSummerHouseView
-        {
-            get { return new NavigateToSummerHouseView(); }
-        }
     }
 }

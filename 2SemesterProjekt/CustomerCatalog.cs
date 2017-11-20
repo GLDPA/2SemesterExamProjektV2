@@ -12,7 +12,7 @@ using InMemoryStorage.Interfaces;
 
 namespace _2SemesterProjekt
 {
-   public class CustomerCatalog : FilePersistableCatalogNoDTO<Customer, CustomerViewModel>, IStorable
+   public class CustomerCatalog : FilePersistableCatalogNoDTO<Customer, CustomerViewModel>
    {
        private static CustomerCatalog _instance;
        
