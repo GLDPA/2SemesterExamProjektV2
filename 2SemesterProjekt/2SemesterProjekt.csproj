@@ -114,9 +114,9 @@
     <Compile Include="SummerHouseMappe\SummerHouseVm.cs" />
     <Compile Include="SummerHouseMappe\SummerHouseVmFactory1.cs" />
     <Compile Include="SummerHouseMappe\SummerHouseCatalog.cs" />
-    <Compile Include="SummerHouseMappe\SummerHouseDeatailsVm.cs" />
+    <Compile Include="SummerHouseMappe\SummerHouseDetailsVm.cs" />
     <Compile Include="SummerHouseMappe\SummerHouseItemVm.cs" />
-    <Compile Include="SummerHouseMappe\SummerHouseMasterDeatailsVm.cs" />
+    <Compile Include="SummerHouseMappe\SummerHouseMasterDetailsVm.cs" />
     <Compile Include="SummerHouseMappe\SummerhouseVmFactory2.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,10 +8,11 @@ using Windows.Graphics.Printing;
 using Catalog.Implementation;
 using DataTransformation.Interfaces;
 using ExtensionsModel.Implementation;
+using InMemoryStorage.Interfaces;
 
 namespace _2SemesterProjekt
 {
-   public class CustomerCatalog : FilePersistableCatalogNoDTO<Customer, CustomerViewModel>
+   public class CustomerCatalog : FilePersistableCatalogNoDTO<Customer, CustomerViewModel>, IStorable
    {
        private static CustomerCatalog _instance;
        

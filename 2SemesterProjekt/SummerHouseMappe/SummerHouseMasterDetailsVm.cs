@@ -11,24 +11,14 @@ using _2SemesterProjekt.SummerHouseMappe;
 
 namespace _2SemesterProjekt
 {
-    class SummerHouseMasterDeatailsVm : MasterDetailsViewModelCRUD<SummerHouse, SommerhusVm, SummerHouse>
+    class SummerHouseMasterDetailsVm : MasterDetailsViewModelCRUD<SummerHouse, SommerhusVm, SummerHouse>
     {
-        public SummerHouseMasterDeatailsVm()
+        public SummerHouseMasterDetailsVm()
             : base(new SummerhouseVmFactory2(),
                 ObjectProvider.SummerHouseCatalog,
                 new List<string>{"StreetNr"},
                 new List<string>{"ZipCóde"})
-
         {
-          
         }
-
-        public NavigateToSummerHouseView ToSummerHouseView
-        {
-            get {return new NavigateToSummerHouseView(); }
-            
-
-
-        } 
     }
 }

@@ -8,10 +8,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Page.DataContext>
-        <local:SummerHouseMasterDeatailsVm>
-        </local:SummerHouseMasterDeatailsVm>
+        <local:SummerHouseMasterDetailsVm/>
     </Page.DataContext>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock HorizontalAlignment="Left" Margin="923,548,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text=" EAT 2 DIX" Height="158" Width="347"/>
+        <TextBlock HorizontalAlignment="Left" Margin="500,272,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text=" EAT 2 DIX" Height="158" Width="347"/>
     </Grid>
 </Page>
+
