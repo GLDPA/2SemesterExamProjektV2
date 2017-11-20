@@ -7,7 +7,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel HorizontalAlignment="Left" Height="758" Margin="388,190,0,0" VerticalAlignment="Top" Width="1122"/>
-        <Button Click="GoToSummerView" Content="Sommerhus" Margin="0,41,0,647" />
+        
+        <Button Click="GoToSummerView" Content="Sommerhus" Margin="208,140,0,548" />
     </Grid>
 </Page>
