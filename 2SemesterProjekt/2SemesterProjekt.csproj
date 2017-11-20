@@ -108,14 +108,15 @@
     </Compile>
     <Compile Include="ObjectProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SummerHouse\SummerHouse.cs" />
-    <Compile Include="SummerHouse\SummerHouseVm.cs" />
-    <Compile Include="SummerHouse\SummerHouseVmFactory1.cs" />
-    <Compile Include="SummerHouse\SummerHouseCatalog.cs" />
-    <Compile Include="SummerHouse\SummerHouseDeatailsVm.cs" />
-    <Compile Include="SummerHouse\SummerHouseItemVm.cs" />
-    <Compile Include="SummerHouse\SummerHouseMasterDeatailsVm.cs" />
-    <Compile Include="SummerHouse\SummerhouseVmFactory2.cs" />
+    <Compile Include="SummerHouseMappe\NavigatetoSummerHouseGUI.cs" />
+    <Compile Include="SummerHouseMappe\SummerHouse.cs" />
+    <Compile Include="SummerHouseMappe\SummerHouseVm.cs" />
+    <Compile Include="SummerHouseMappe\SummerHouseVmFactory1.cs" />
+    <Compile Include="SummerHouseMappe\SummerHouseCatalog.cs" />
+    <Compile Include="SummerHouseMappe\SummerHouseDeatailsVm.cs" />
+    <Compile Include="SummerHouseMappe\SummerHouseItemVm.cs" />
+    <Compile Include="SummerHouseMappe\SummerHouseMasterDeatailsVm.cs" />
+    <Compile Include="SummerHouseMappe\SummerhouseVmFactory2.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -142,7 +143,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SummerHouse\SummerHouseView.xaml">
+    <Page Include="SummerHouseMappe\SummerHouseView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
