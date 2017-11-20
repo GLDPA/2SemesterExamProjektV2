@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 <Page.DataContext>
-    <local:SummerHouseMasterDeatailsVm></local:SummerHouseMasterDeatailsVm>
+    <local:SummerHouse></local:SummerHouse>
 </Page.DataContext>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel HorizontalAlignment="Left" Height="758" Margin="388,190,0,0" VerticalAlignment="Top" Width="1122">
@@ -18,3 +18,4 @@
 
     </Grid>
 </Page>
+

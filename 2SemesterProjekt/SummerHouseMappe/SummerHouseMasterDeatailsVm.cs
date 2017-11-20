@@ -20,8 +20,15 @@ namespace _2SemesterProjekt
                 new List<string>{"ZipCóde"})
 
         {
-            ToSummerHouseView = new NavigateToSummerHouseView();
+          
         }
-        public NavigateToSummerHouseView ToSummerHouseView { get; set; }
+
+        public NavigateToSummerHouseView ToSummerHouseView
+        {
+            get {return new NavigateToSummerHouseView(); }
+            
+
+
+        } 
     }
 }
