@@ -8,7 +8,15 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel HorizontalAlignment="Left" Height="282" Margin="10,10,0,0" VerticalAlignment="Top" Width="445">
-            <Button Click="GoToSummerView" Content="Sommerhus" Height="95" Width="183" />
+            <Button Click="GoToSummerView" Content="Sommerhus" Height="95" HorizontalAlignment="Stretch" Margin="0,0,262,0" />
         </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="282" Margin="10,10,0,0" VerticalAlignment="Top" Width="445"/>
+        <Grid HorizontalAlignment="Left" Height="104" Margin="10,112,0,0" VerticalAlignment="Top" Width="201">
+            <Button Click="GoToCustomerView" Content="Customer" Height="95" HorizontalAlignment="Stretch" Margin="-1,0,23,9" />
+        </Grid>
+
+
+
     </Grid>
+
 </Page>
