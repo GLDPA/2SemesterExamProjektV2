@@ -9,6 +9,18 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="599,97,45,292" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition">
+            <TextBox Height="122" TextWrapping="Wrap" Text="{Binding StreetNr,Mode=TwoWay }"/>
+            <TextBox Height="122" TextWrapping="Wrap" Text="{Binding ZipCode, Mode=TwoWay}"/>
+            <TextBox Height="122" TextWrapping="Wrap" Text="{Binding City, Mode=TwoWay}"/>
+            <TextBox Height="122" TextWrapping="Wrap" Text="{Binding NickName, Mode=TwoWay}"/>
+            <TextBox Height="122" TextWrapping="Wrap" Text="{Binding Municipality, Mode=TwoWay}"/>
+        </StackPanel>
+
+        <Button Content="GODKEND" HorizontalAlignment="Stretch" Height="98" VerticalAlignment="Bottom" Margin="599,0,531,171"/>
+        <Button Content="ANNULLER" HorizontalAlignment="Right" Height="98" VerticalAlignment="Bottom" Margin="0,0,45,171" Width="370"/>
+        
+        <TextBlock HorizontalAlignment="Left" Height="85" Margin="64,97,0,0" TextWrapping="Wrap" Text="Opret Sommerhus" VerticalAlignment="Top" Width="234"/>
 
     </Grid>
 </Page>
