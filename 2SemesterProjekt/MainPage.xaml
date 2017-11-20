@@ -6,8 +6,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
+<Page.DataContext>
+    <local:SummerHouseMasterDeatailsVm></local:SummerHouseMasterDeatailsVm>
+</Page.DataContext>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel HorizontalAlignment="Left" Height="758" Margin="388,190,0,0" VerticalAlignment="Top" Width="1122">
+            <TextBox TextWrapping="Wrap" Text="*ENTER TEXT HERE" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="MEGA FAGGOT" SelectionChanged="TextBlock_SelectionChanged"/>
+            <Button Content="GO TO THAT DANK ASS SHIT" Command="{Binding ToSummerHouseView}" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </StackPanel>
 
     </Grid>
 </Page>

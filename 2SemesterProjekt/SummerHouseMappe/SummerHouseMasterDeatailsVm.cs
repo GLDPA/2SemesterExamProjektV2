@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Catalog.Implementation;
 using ExtensionsViewModel.Implementation;
 using ViewModel.Interfaces;
+using _2SemesterProjekt.SummerHouseMappe;
 
 namespace _2SemesterProjekt
 {
@@ -18,9 +19,9 @@ namespace _2SemesterProjekt
                 new List<string>{"StreetNr"},
                 new List<string>{"ZipCóde"})
 
-    {
-    
-    }
-
+        {
+            ToSummerHouseView = new NavigateToSummerHouseView();
+        }
+        public NavigateToSummerHouseView ToSummerHouseView { get; set; }
     }
 }

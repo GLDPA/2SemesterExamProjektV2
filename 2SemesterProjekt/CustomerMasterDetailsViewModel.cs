@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Catalog.Implementation;
 using ExtensionsViewModel.Implementation;
 using ViewModel.Interfaces;
+using _2SemesterProjekt.SummerHouseMappe;
 
 namespace _2SemesterProjekt
 {
