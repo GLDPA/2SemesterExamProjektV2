@@ -8,8 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Click="GoToMainPage" Margin="0,31,0,657" > Home </Button>
         <StackPanel HorizontalAlignment="Left" Height="100" Margin="320,418,0,0" VerticalAlignment="Top" Width="100"/>
+        <StackPanel HorizontalAlignment="Left" Height="237" Margin="10,10,0,0" VerticalAlignment="Top" Width="427">
+            <Button Click="GoToMainPage" Content="Home" Height="58" Width="128" />
+        </StackPanel>
 
     </Grid>
 </Page>
