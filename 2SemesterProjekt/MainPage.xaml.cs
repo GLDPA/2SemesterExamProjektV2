@@ -28,23 +28,9 @@ namespace _2SemesterProjekt
             this.InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void GoToSummerView(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(SummerHousetest), null);
+            this.Frame.Navigate(typeof(SummerHouseView), null);
         }
-
-        
-
-
     }
 }

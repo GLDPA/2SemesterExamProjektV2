@@ -2,16 +2,12 @@
     x:Class="_2SemesterProjekt.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:_2SemesterProjekt"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <Page.DataContext>
-        <local:MainPageVM></local:MainPageVM>
-    </Page.DataContext>
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel HorizontalAlignment="Left" Height="758" Margin="388,190,0,0" VerticalAlignment="Top" Width="1122">
-            <Button Click="GoToSummerView" > Sommerhus</Button>
-        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="758" Margin="388,190,0,0" VerticalAlignment="Top" Width="1122"/>
+        <Button Click="GoToSummerView" Content="Sommerhus" Margin="0,41,0,647" />
     </Grid>
 </Page>
