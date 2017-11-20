@@ -21,7 +21,7 @@ namespace _2SemesterProjekt
                 Municipality = vmObj.Municipality,
                 NickName = vmObj.NickName
             };
-            return obj;
+        return obj;
         }
     }
 }

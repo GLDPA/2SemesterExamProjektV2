@@ -6,14 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-<Page.DataContext>
-    <local:SummerHouseMasterDeatailsVm></local:SummerHouseMasterDeatailsVm>
-</Page.DataContext>
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel HorizontalAlignment="Left" Height="226" Margin="65,110,0,0" VerticalAlignment="Top" Width="405">
-            <Button Command="{Binding ToSummerHouse}" Content="Summer House" VerticalAlignment="Stretch" RenderTransformOrigin="0.277,1"/>
-        </StackPanel>
 
     </Grid>
 </Page>
