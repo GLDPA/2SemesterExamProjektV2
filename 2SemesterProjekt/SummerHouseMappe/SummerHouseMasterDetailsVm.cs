@@ -16,8 +16,8 @@ namespace _2SemesterProjekt
         public SummerHouseMasterDetailsVm()
             : base(new SummerhouseVmFactory2(),
                 ObjectProvider.SummerHouseCatalog,
-                new List<string>{"StreetNr"},
-                new List<string>{"ZipCóde"})
+                new List<string>{},
+                new List<string>{})
         {
         }
 
