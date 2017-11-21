@@ -23,10 +23,12 @@
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="Møns klint.jpg"/>
         </Grid.Background>
+        
         <StackPanel HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="162">
             <TextBlock HorizontalAlignment="Left" Height="43" TextWrapping="Wrap" Text="Sommerhus" VerticalAlignment="Top" Width="162" FontSize="24" FontWeight="Bold">
             </TextBlock>
         </StackPanel>
+        
         <StackPanel HorizontalAlignment="Left" Height="637" Margin="1,10,0,0" VerticalAlignment="Top" Width="587" Background="{ThemeResource AccentButtonForeground}" Grid.Column="1">
             <StackPanel Height="354" Width="217" HorizontalAlignment="Left">
                 <TextBlock TextWrapping="Wrap" Text="Vej navn" Height="54" />
@@ -36,6 +38,7 @@
                 <TextBlock TextWrapping="Wrap" Text="Kommune" Height="54"/>
                 <TextBlock TextWrapping="Wrap" Text="Navn" Height="59"/>
             </StackPanel>
+            
             <StackPanel HorizontalAlignment="Right" Height="78" Width="585" RenderTransformOrigin="0.5,0.5" Margin="0,204.5,2,0" Orientation="Horizontal">
                 <StackPanel.RenderTransform>
                     <CompositeTransform ScaleY="-1"/>
@@ -52,6 +55,7 @@
                 </Button>
             </StackPanel>
         </StackPanel>
+        
         <StackPanel HorizontalAlignment="Left" Height="355" Margin="219,10,0,0" VerticalAlignment="Top" Width="369" Grid.Column="1">
             <TextBox HorizontalAlignment="Left" Height="55" TextWrapping="Wrap" Text="{Binding DataObject.StreetName, Mode=TwoWay}" VerticalAlignment="Top" Width="369"/>
             <TextBox HorizontalAlignment="Left" Height="59" TextWrapping="Wrap" Text="{Binding DataObject.StreetNr, Mode=TwoWay}" VerticalAlignment="Top" Width="369"/>
