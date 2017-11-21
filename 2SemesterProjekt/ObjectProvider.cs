@@ -20,5 +20,14 @@ namespace _2SemesterProjekt
         {
             get { return CustomerCatalog.Instance;}
         }
+
+        public static BookingCatalog BookingCatalog
+        {
+            get { return BookingCatalog.Instance; }
+        }
+        public static FakturaCatalog FakturaCatalog
+        {
+            get { return FakturaCatalog.Instance; }
+        }
     }
 }
