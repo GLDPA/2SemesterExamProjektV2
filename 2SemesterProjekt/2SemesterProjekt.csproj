@@ -103,6 +103,14 @@
     <Compile Include="CustomerViewModel.cs" />
     <Compile Include="CustomerViewModelFactory.cs" />
     <Compile Include="CustomerVMFactory.cs" />
+    <Compile Include="Faktura\Faktura.cs" />
+    <Compile Include="Faktura\FakturaCatalog.cs" />
+    <Compile Include="Faktura\FakturaDetailsVM.cs" />
+    <Compile Include="Faktura\FakturaItemVM.cs" />
+    <Compile Include="Faktura\FakturaMasterDetailVm.cs" />
+    <Compile Include="Faktura\FakturaVM.cs" />
+    <Compile Include="Faktura\FakturaVmFactory1.cs" />
+    <Compile Include="Faktura\FakturaVmFactory2.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

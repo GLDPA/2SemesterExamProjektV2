@@ -17,5 +17,7 @@ namespace _2SemesterProjekt
         {
             get { return CustomerCatalog.Instance;}
         }
+
+        public static object FakturaCatalog { get; internal set; }
     }
 }
