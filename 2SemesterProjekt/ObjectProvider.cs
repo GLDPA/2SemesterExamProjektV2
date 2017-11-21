@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _2SemesterProjekt.Faktura;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,11 +19,6 @@ namespace _2SemesterProjekt
         public static CustomerCatalog CustomerCatalog
         {
             get { return CustomerCatalog.Instance;}
-        }
-
-        public static BookingCatalog BookingCatalog
-        {
-            get { return  BookingCatalog.Instance;}
         }
     }
 }
