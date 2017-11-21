@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _2SemesterProjekt.BookingFolder;
 
 namespace _2SemesterProjekt
 {
@@ -16,6 +17,11 @@ namespace _2SemesterProjekt
         public static CustomerCatalog CustomerCatalog
         {
             get { return CustomerCatalog.Instance;}
+        }
+
+        public static BookingCatalog BookingCatalog
+        {
+            get { return  BookingCatalog.Instance;}
         }
     }
 }
