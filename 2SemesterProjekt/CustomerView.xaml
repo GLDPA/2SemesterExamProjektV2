@@ -38,7 +38,7 @@
                         <CompositeTransform Rotation="180.042" ScaleX="-1"/>
                     </Button.RenderTransform>
                 </Button>
-                <Button Content="Anuller" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="184.559" RenderTransformOrigin="0.5,0.5" Margin="180,0.134,0,-0.221" UseLayoutRounding="False" d:LayoutRounding="Auto" FontSize="20" FontWeight="Bold" Background="#33FFFFFF" BorderBrush="Black">
+                <Button Content="Annuller" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="184.559" RenderTransformOrigin="0.5,0.5" Margin="180,0.134,0,-0.221" UseLayoutRounding="False" d:LayoutRounding="Auto" FontSize="20" FontWeight="Bold" Background="#33FFFFFF" BorderBrush="Black">
                     <Button.RenderTransform>
                         <CompositeTransform ScaleX="-1" Rotation="-179.948"/>
                     </Button.RenderTransform>
@@ -58,7 +58,7 @@
             <Button Click="GoToMainPage" Content="Home" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="172" FontSize="20" FontWeight="Bold" Background="{ThemeResource AccentButtonForegroundPointerOver}" BorderBrush="Black" />
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="65" Margin="235,550,0,0" VerticalAlignment="Top" Width="211">
-            <Button Content="Sommerhus katalog" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="211" FontWeight="Bold" FontSize="20" Background="{ThemeResource AccentButtonForeground}" BorderBrush="Black"/>
+            <Button Content="Kunde katalog" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="211" FontWeight="Bold" FontSize="20" Background="{ThemeResource AccentButtonForeground}" BorderBrush="Black"/>
         </StackPanel>
 
     </Grid>

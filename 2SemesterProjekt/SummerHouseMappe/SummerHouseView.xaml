@@ -45,7 +45,7 @@
                         <CompositeTransform Rotation="180.042" ScaleX="-1"/>
                     </Button.RenderTransform>
                 </Button>
-                <Button Content="Anuller" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="188.558" RenderTransformOrigin="0.5,0.5" Margin="100,0.136,0,-0.223" UseLayoutRounding="False" d:LayoutRounding="Auto" FontSize="20" FontWeight="Bold" Background="#33FFFFFF" BorderBrush="Black">
+                <Button Content="Annuller" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="188.558" RenderTransformOrigin="0.5,0.5" Margin="100,0.136,0,-0.223" UseLayoutRounding="False" d:LayoutRounding="Auto" FontSize="20" FontWeight="Bold" Background="#33FFFFFF" BorderBrush="Black">
                     <Button.RenderTransform>
                         <CompositeTransform ScaleX="-1" Rotation="-179.948"/>
                     </Button.RenderTransform>
