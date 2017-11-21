@@ -11,13 +11,13 @@ using _2SemesterProjekt.SummerHouseMappe;
 
 namespace _2SemesterProjekt
 {
-    class SummerHouseMasterDetailsVm : MasterDetailsViewModelCRUD<SummerHouse, SommerhusVm, SummerHouse>
+    public class SummerHouseMasterDetailsVm : MasterDetailsViewModelCRUD<SummerHouse, SommerhusVm, SummerHouse>
     {
         public SummerHouseMasterDetailsVm()
             : base(new SummerhouseVmFactory2(),
                 ObjectProvider.SummerHouseCatalog,
-                new List<string>{"StreetNr"},
-                new List<string>{"ZipCóde"})
+                new List<string>{},
+                new List<string>{})
         {
         }
     }
