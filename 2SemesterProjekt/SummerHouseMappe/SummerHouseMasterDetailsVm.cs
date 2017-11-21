@@ -20,7 +20,5 @@ namespace _2SemesterProjekt
                 new List<string>{})
         {
         }
-
-        
     }
 }
