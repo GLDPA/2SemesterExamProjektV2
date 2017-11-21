@@ -6,14 +6,18 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel HorizontalAlignment="Left" Height="282" Margin="10,10,0,0" VerticalAlignment="Top" Width="445">
-            <Button Click="GoToSummerView" Content="Sommerhus" Height="95" HorizontalAlignment="Stretch" Margin="0,0,262,0" />
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="SummerHouseMappe/Møns klint.jpg"/>
+        </Grid.Background>
+        <StackPanel HorizontalAlignment="Left" Height="463" Margin="10,10,0,0" VerticalAlignment="Top" Width="524" Background="{ThemeResource AccentButtonForegroundDisabled}">
+            <Button Click="GoToSummerView" Content="Sommerhus" Height="95" HorizontalAlignment="Stretch" Margin="0,0,258,0" Background="{ThemeResource AccentButtonForeground}" BorderBrush="Black" />
+            <Button Click="GoToCustomerView" Content="Kunde" Height="94" HorizontalAlignment="Stretch" Margin="0,0,258,0" Background="{ThemeResource AccentButtonForeground}" BorderBrush="Black" />
         </StackPanel>
-        <StackPanel HorizontalAlignment="Left" Height="282" Margin="10,10,0,0" VerticalAlignment="Top" Width="445"/>
-        <Grid HorizontalAlignment="Left" Height="104" Margin="10,112,0,0" VerticalAlignment="Top" Width="201">
-            <Button Click="GoToCustomerView" Content="Kunde" Height="95" HorizontalAlignment="Stretch" Margin="-1,0,23,9" />
-        </Grid>
+
+
+
+
 
 
 

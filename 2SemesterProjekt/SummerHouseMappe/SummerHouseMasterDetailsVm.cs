@@ -11,7 +11,7 @@ using _2SemesterProjekt.SummerHouseMappe;
 
 namespace _2SemesterProjekt
 {
-    class SummerHouseMasterDetailsVm : MasterDetailsViewModelCRUD<SummerHouse, SommerhusVm, SummerHouse>
+    public class SummerHouseMasterDetailsVm : MasterDetailsViewModelCRUD<SummerHouse, SommerhusVm, SummerHouse>
     {
         public SummerHouseMasterDetailsVm()
             : base(new SummerhouseVmFactory2(),
@@ -20,5 +20,7 @@ namespace _2SemesterProjekt
                 new List<string>{"ZipCóde"})
         {
         }
+
+        
     }
 }

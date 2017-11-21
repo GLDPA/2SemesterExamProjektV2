@@ -5,14 +5,74 @@
     xmlns:local="using:_2SemesterProjekt.SummerHouseMappe"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:SemesterProjekt="using:_2SemesterProjekt"
     mc:Ignorable="d">
-
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel HorizontalAlignment="Left" Height="100" Margin="320,418,0,0" VerticalAlignment="Top" Width="100"/>
-        <StackPanel HorizontalAlignment="Left" Height="237" Margin="10,10,0,0" VerticalAlignment="Top" Width="427">
-            <Button Click="GoToMainPage" Content="Home" Height="58" Width="128" />
+    <Page.Background>
+        <ImageBrush Stretch="Fill"/>
+    </Page.Background>
+    
+<Page.DataContext>
+        <SemesterProjekt:SummerHouseMasterDetailsVm/>
+    </Page.DataContext>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="341*"/>
+            <ColumnDefinition Width="299*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Møns klint.jpg"/>
+        </Grid.Background>
+        <StackPanel HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="162">
+            <TextBlock HorizontalAlignment="Left" Height="43" TextWrapping="Wrap" Text="Sommerhus" VerticalAlignment="Top" Width="162" FontSize="24" FontWeight="Bold">
+            </TextBlock>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="637" Margin="1,10,0,0" VerticalAlignment="Top" Width="587" Background="{ThemeResource AccentButtonForeground}" Grid.Column="1">
+            <StackPanel Height="354" Width="217" HorizontalAlignment="Left">
+                <TextBlock TextWrapping="Wrap" Text="Vej navn" Height="54" />
+                <TextBlock TextWrapping="Wrap" Text="Vej nr." Height="59"/>
+                <TextBlock TextWrapping="Wrap" Text="Post nr." Height="63"/>
+                <TextBlock TextWrapping="Wrap" Text="By" Height="59"/>
+                <TextBlock TextWrapping="Wrap" Text="Kommune" Height="54"/>
+                <TextBlock TextWrapping="Wrap" Text="Navn" Height="59"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Right" Height="78" Width="585" RenderTransformOrigin="0.5,0.5" Margin="0,204.5,2,0" Orientation="Horizontal">
+                <StackPanel.RenderTransform>
+                    <CompositeTransform ScaleY="-1"/>
+                </StackPanel.RenderTransform>
+                <Button Content="Godkend" Height="78.009" Margin="0,-0.027,0,0" VerticalAlignment="Top" Width="134.886" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" FontSize="20" FontWeight="Bold" Background="White" BorderBrush="Black">
+                    <Button.RenderTransform>
+                        <CompositeTransform Rotation="180.042" ScaleX="-1"/>
+                    </Button.RenderTransform>
+                </Button>
+                <Button Content="Anuller" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="188.558" RenderTransformOrigin="0.5,0.5" Margin="100,0.136,0,-0.223" UseLayoutRounding="False" d:LayoutRounding="Auto" FontSize="20" FontWeight="Bold" Background="#33FFFFFF" BorderBrush="Black">
+                    <Button.RenderTransform>
+                        <CompositeTransform ScaleX="-1" Rotation="-179.948"/>
+                    </Button.RenderTransform>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="355" Margin="219,10,0,0" VerticalAlignment="Top" Width="369" Grid.Column="1">
+            <TextBox HorizontalAlignment="Left" Height="55" TextWrapping="Wrap" Text="{Binding DataObject.StreetName, Mode=TwoWay}" VerticalAlignment="Top" Width="369"/>
+            <TextBox HorizontalAlignment="Left" Height="59" TextWrapping="Wrap" Text="{Binding DataObject.StreetNr, Mode=TwoWay}" VerticalAlignment="Top" Width="369"/>
+            <TextBox HorizontalAlignment="Left" Height="59" TextWrapping="Wrap" Text="{Binding DataObject.ZipCode, Mode=TwoWay}" VerticalAlignment="Top" Width="369"/>
+            <TextBox HorizontalAlignment="Left" Height="59" TextWrapping="Wrap" Text="{Binding DataObject.City, Mode=TwoWay}" VerticalAlignment="Top" Width="369"/>
+            <TextBox HorizontalAlignment="Left" Height="59" TextWrapping="Wrap" Text="{Binding DataObject.Municipality, Mode=TwoWay}" VerticalAlignment="Top" Width="369"/>
+            <TextBox HorizontalAlignment="Left" Height="59" TextWrapping="Wrap" Text="{Binding DataObject.NickName, Mode=TwoWay}" VerticalAlignment="Top" Width="369"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="65" Margin="46,582,0,0" VerticalAlignment="Top" Width="172">
+            <Button Click="GoToMainPage" Content="Home" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="172" FontSize="20" FontWeight="Bold" Background="{ThemeResource AccentButtonForegroundPointerOver}" BorderBrush="Black" />
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="65" Margin="258,582,0,0" VerticalAlignment="Top" Width="211">
+            <Button Content="Sommerhus katalog" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="211" FontWeight="Bold" FontSize="20" Background="{ThemeResource AccentButtonForeground}" BorderBrush="Black"/>
         </StackPanel>
 
     </Grid>
 </Page>
+
+
+
+
+
+
 
