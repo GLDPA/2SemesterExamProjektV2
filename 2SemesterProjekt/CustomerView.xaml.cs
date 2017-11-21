@@ -12,30 +12,31 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using _2SemesterProjekt.SummerHouseMappe;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace _2SemesterProjekt
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class CustomerView : Page
     {
-        public MainPage()
+        public CustomerView()
         {
             this.InitializeComponent();
         }
 
-        private void GoToSummerView(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(SummerHouseView), null);
-        }
 
         private void GoToCustomerView(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(CustomerView), null);
         }
+        private void GoToMainPage(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage), null);
+        }
+
+       
     }
 }

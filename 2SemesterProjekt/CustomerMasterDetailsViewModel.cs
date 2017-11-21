@@ -10,10 +10,13 @@ using _2SemesterProjekt.SummerHouseMappe;
 
 namespace _2SemesterProjekt
 {
-    class CustomerMasterDetailsViewModel : MasterDetailsViewModelCRUD<Customer, CustomerViewModel, Customer>
+    public class CustomerMasterDetailsViewModel : MasterDetailsViewModelCRUD<Customer,CustomerViewModel,Customer>
     {
-        public CustomerMasterDetailsViewModel(IViewModelFactory<CustomerViewModel> viewModelFactory, PersistableCatalog<Customer, CustomerViewModel, Customer> catalog, List<string> immutableControls, List<string> mutableControls) 
-            : base(viewModelFactory, catalog, immutableControls, mutableControls)
+        public CustomerMasterDetailsViewModel()
+            : base(new CustomerVMFactory(),
+                ObjectProvider.CustomerCatalog,
+                new List<string>{},
+                new List<string>{})
         {
         }
     }

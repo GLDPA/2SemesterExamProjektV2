@@ -95,11 +95,22 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BookingFolder\Booking.cs" />
+    <Compile Include="BookingFolder\BookingCatalog.cs" />
+    <Compile Include="BookingFolder\BookingDetailsViewModel.cs" />
+    <Compile Include="BookingFolder\BookingItemVm.cs" />
+    <Compile Include="BookingFolder\BookingMasterDetailsViewModel.cs" />
+    <Compile Include="BookingFolder\BookingViewModelFactory.cs" />
+    <Compile Include="BookingFolder\BookingVm.cs" />
+    <Compile Include="BookingFolder\BookingVmFactory.cs" />
     <Compile Include="Customer .cs" />
     <Compile Include="CustomerCatalog.cs" />
     <Compile Include="CustomerDetailsViewModel.cs" />
     <Compile Include="CustomerItemViewModel.cs" />
     <Compile Include="CustomerMasterDetailsViewModel.cs" />
+    <Compile Include="CustomerView.xaml.cs">
+      <DependentUpon>CustomerView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CustomerViewModel.cs" />
     <Compile Include="CustomerViewModelFactory.cs" />
     <Compile Include="CustomerVMFactory.cs" />
@@ -144,12 +155,17 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="SummerHouseMappe\Møns klint.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="CustomerView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -245,6 +261,7 @@
     <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\ViewState.dll" />
     <Analyzer Include="..\..\MVVMStarterLibrary\ExtensionsViewModel\bin\Debug\WebAPI.dll" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
