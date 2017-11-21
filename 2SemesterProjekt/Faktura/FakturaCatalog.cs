@@ -13,5 +13,7 @@ namespace _2SemesterProjekt.Faktura
         public FakturaCatalog(IFactory<Faktura, FakturaVM> vmFactory) : base(vmFactory)
         {
         }
+
+        public FakturaCatalog Instance { get; internal set; }
     }
 }
