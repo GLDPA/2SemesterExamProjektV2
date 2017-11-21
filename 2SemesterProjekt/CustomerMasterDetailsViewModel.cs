@@ -15,8 +15,8 @@ namespace _2SemesterProjekt
         public CustomerMasterDetailsViewModel()
             : base(new CustomerVMFactory(),
                 ObjectProvider.CustomerCatalog,
-                new List<string>{"Name"},
-                new List<string>{"Email"})
+                new List<string>{},
+                new List<string>{})
         {
         }
     }
