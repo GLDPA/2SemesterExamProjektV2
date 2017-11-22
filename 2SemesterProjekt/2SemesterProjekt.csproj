@@ -122,6 +122,14 @@
     <Compile Include="FakturaFolder\FakturaVM.cs" />
     <Compile Include="FakturaFolder\FakturaVmFactory1.cs" />
     <Compile Include="FakturaFolder\FakturaVmFactory2.cs" />
+    <Compile Include="InspectionFolder\Inspection.cs" />
+    <Compile Include="InspectionFolder\InspectionCatalog.cs" />
+    <Compile Include="InspectionFolder\InspectionDetailsVm.cs" />
+    <Compile Include="InspectionFolder\InspectionItemVm.cs" />
+    <Compile Include="InspectionFolder\InspectionMasterDetailsVm.cs" />
+    <Compile Include="InspectionFolder\InspectionVm.cs" />
+    <Compile Include="InspectionFolder\InspectionVmFactory.cs" />
+    <Compile Include="InspectionFolder\InspectionVmFactory1.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -177,7 +185,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.0.1</Version>
+      <Version>6.0.2</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

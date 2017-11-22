@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using _2SemesterProjekt.BookingFolder;
+using _2SemesterProjekt.InspectionFolder;
 
 
 namespace _2SemesterProjekt
@@ -28,6 +29,10 @@ namespace _2SemesterProjekt
         public static FakturaCatalog FakturaCatalog
         {
             get { return FakturaCatalog.Instance; }
+        }
+        public static InspectionCatalog InspectionCatalog
+        {
+            get { return InspectionCatalog.Instance; }
         }
     }
 }
