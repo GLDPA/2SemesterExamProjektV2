@@ -12,7 +12,7 @@
     
     <Grid>
         <Grid.Background>
-            <ImageBrush Stretch="Fill" ImageSource="SummerHouseMappe/Møns klint.jpg"/>
+            <ImageBrush Stretch="Fill"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="341*"/>
@@ -33,7 +33,7 @@
                 <StackPanel.RenderTransform>
                     <CompositeTransform ScaleY="-1"/>
                 </StackPanel.RenderTransform>
-                <Button Content="Godkend" Height="78.009" Margin="0,-0.027,0,0" VerticalAlignment="Top" Width="134.886" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" FontSize="20" FontWeight="Bold" Background="White" BorderBrush="Black">
+                <Button Command="{Binding CreateCustomer}" Content="Godkend" Height="78.009" Margin="0,-0.027,0,0" VerticalAlignment="Top" Width="134.886" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" FontSize="20" FontWeight="Bold" Background="White" BorderBrush="Black">
                     <Button.RenderTransform>
                         <CompositeTransform Rotation="180.042" ScaleX="-1"/>
                     </Button.RenderTransform>

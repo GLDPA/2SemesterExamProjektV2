@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Catalog.Implementation;
 using ExtensionsViewModel.Implementation;
 using ViewModel.Interfaces;
+using _2SemesterProjekt.CustomerFolder;
 using _2SemesterProjekt.SummerHouseMappe;
 
 namespace _2SemesterProjekt
@@ -18,6 +19,8 @@ namespace _2SemesterProjekt
                 new List<string>{},
                 new List<string>{})
         {
+            CreateCustomer = new CustomerCreateCommands();
         }
+        public CustomerCreateCommands CreateCustomer { get; set; }
     }
 }

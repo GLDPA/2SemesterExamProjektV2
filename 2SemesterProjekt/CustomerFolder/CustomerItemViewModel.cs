@@ -7,10 +7,9 @@ using DataTransformation.Implementation;
 
 namespace _2SemesterProjekt
 {
-    class CustomerItemViewModel : DataWrapper<CustomerViewModel>
-
+    public class CustomerItemViewModel : DataWrapper<CustomerViewModel>
     {
-        protected CustomerItemViewModel(CustomerViewModel obj) : base(obj)
+        public CustomerItemViewModel(CustomerViewModel obj) : base(obj)
         {
         }
     }

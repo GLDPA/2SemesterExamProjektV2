@@ -105,6 +105,7 @@
     <Compile Include="BookingFolder\BookingVmFactory.cs" />
     <Compile Include="CustomerFolder\Customer .cs" />
     <Compile Include="CustomerFolder\CustomerCatalog.cs" />
+    <Compile Include="CustomerFolder\CustomerCreateCommands.cs" />
     <Compile Include="CustomerFolder\CustomerDetailsViewModel.cs" />
     <Compile Include="CustomerFolder\CustomerItemViewModel.cs" />
     <Compile Include="CustomerFolder\CustomerMasterDetailsViewModel.cs" />

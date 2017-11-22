@@ -23,7 +23,6 @@ namespace _2SemesterProjekt
                 CVRNumber = vmObj.CVRNumber,
                 ExpirationYear = vmObj.ExpirationYear,
                 ExpirationMonth = vmObj.ExpirationMonth
-
             };
             
 

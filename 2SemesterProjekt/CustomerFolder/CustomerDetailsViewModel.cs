@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ViewModel.Implementation;
+using _2SemesterProjekt.CustomerFolder;
 
 namespace _2SemesterProjekt
 {
@@ -11,8 +12,10 @@ namespace _2SemesterProjekt
     {
         public CustomerDetailsViewModel(CustomerViewModel obj) : base(obj)
         {
+            
         }
 
+        
         public string Name
         {
             get
