@@ -103,17 +103,17 @@
     <Compile Include="BookingFolder\BookingViewModelFactory.cs" />
     <Compile Include="BookingFolder\BookingVm.cs" />
     <Compile Include="BookingFolder\BookingVmFactory.cs" />
-    <Compile Include="Customer .cs" />
-    <Compile Include="CustomerCatalog.cs" />
-    <Compile Include="CustomerDetailsViewModel.cs" />
-    <Compile Include="CustomerItemViewModel.cs" />
-    <Compile Include="CustomerMasterDetailsViewModel.cs" />
-    <Compile Include="CustomerView.xaml.cs">
+    <Compile Include="Customer\Customer .cs" />
+    <Compile Include="Customer\CustomerCatalog.cs" />
+    <Compile Include="Customer\CustomerDetailsViewModel.cs" />
+    <Compile Include="Customer\CustomerItemViewModel.cs" />
+    <Compile Include="Customer\CustomerMasterDetailsViewModel.cs" />
+    <Compile Include="Customer\CustomerView.xaml.cs">
       <DependentUpon>CustomerView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CustomerViewModel.cs" />
-    <Compile Include="CustomerViewModelFactory.cs" />
-    <Compile Include="CustomerVMFactory.cs" />
+    <Compile Include="Customer\CustomerViewModel.cs" />
+    <Compile Include="Customer\CustomerViewModelFactory.cs" />
+    <Compile Include="Customer\CustomerVMFactory.cs" />
     <Compile Include="Faktura\Faktura.cs" />
     <Compile Include="Faktura\FakturaCatalog.cs" />
     <Compile Include="Faktura\FakturaDetailsVM.cs" />
@@ -162,7 +162,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="CustomerView.xaml">
+    <Page Include="Customer\CustomerView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
