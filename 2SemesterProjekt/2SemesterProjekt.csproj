@@ -95,58 +95,58 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BookingFolder\Booking.cs" />
-    <Compile Include="BookingFolder\BookingCatalog.cs" />
-    <Compile Include="BookingFolder\BookingDetailsViewModel.cs" />
-    <Compile Include="BookingFolder\BookingItemVm.cs" />
-    <Compile Include="BookingFolder\BookingMasterDetailsViewModel.cs" />
-    <Compile Include="BookingFolder\BookingViewModelFactory.cs" />
-    <Compile Include="BookingFolder\BookingVm.cs" />
-    <Compile Include="BookingFolder\BookingVmFactory.cs" />
-    <Compile Include="CustomerFolder\Customer .cs" />
-    <Compile Include="CustomerFolder\CustomerCatalog.cs" />
-    <Compile Include="CustomerFolder\CustomerDetailsViewModel.cs" />
-    <Compile Include="CustomerFolder\CustomerItemViewModel.cs" />
-    <Compile Include="CustomerFolder\CustomerMasterDetailsViewModel.cs" />
-    <Compile Include="CustomerFolder\CustomerView.xaml.cs">
+    <Compile Include="DomainClass\Booking.cs" />
+    <Compile Include="DomainCatalog\BookingCatalog.cs" />
+    <Compile Include="DomainDetailsViewModel\BookingDetailsViewModel.cs" />
+    <Compile Include="DomainItemViewModel\BookingItemVm.cs" />
+    <Compile Include="DomainMasterDetailsViewModel\BookingMasterDetailsViewModel.cs" />
+    <Compile Include="DomainViewModelFactory1\BookingViewModelFactory1.cs" />
+    <Compile Include="DomainViewModel\BookingVm.cs" />
+    <Compile Include="DomainViewModelFactory2\BookingViewModelFactory2.cs" />
+    <Compile Include="DomainClass\Customer .cs" />
+    <Compile Include="DomainCatalog\CustomerCatalog.cs" />
+    <Compile Include="DomainDetailsViewModel\CustomerDetailsViewModel.cs" />
+    <Compile Include="DomainItemViewModel\CustomerItemViewModel.cs" />
+    <Compile Include="DomainMasterDetailsViewModel\CustomerMasterDetailsViewModel.cs" />
+    <Compile Include="DomainView\CustomerView.xaml.cs">
       <DependentUpon>CustomerView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CustomerFolder\CustomerViewModel.cs" />
-    <Compile Include="CustomerFolder\CustomerViewModelFactory.cs" />
-    <Compile Include="CustomerFolder\CustomerVMFactory.cs" />
-    <Compile Include="FakturaFolder\Faktura.cs" />
-    <Compile Include="FakturaFolder\FakturaCatalog.cs" />
-    <Compile Include="FakturaFolder\FakturaDetailsVM.cs" />
-    <Compile Include="FakturaFolder\FakturaItemVM.cs" />
-    <Compile Include="FakturaFolder\FakturaMasterDetailVm.cs" />
-    <Compile Include="FakturaFolder\FakturaVM.cs" />
-    <Compile Include="FakturaFolder\FakturaVmFactory1.cs" />
-    <Compile Include="FakturaFolder\FakturaVmFactory2.cs" />
-    <Compile Include="InspectionFolder\Inspection.cs" />
-    <Compile Include="InspectionFolder\InspectionCatalog.cs" />
-    <Compile Include="InspectionFolder\InspectionDetailsVm.cs" />
-    <Compile Include="InspectionFolder\InspectionItemVm.cs" />
-    <Compile Include="InspectionFolder\InspectionMasterDetailsVm.cs" />
-    <Compile Include="InspectionFolder\InspectionVm.cs" />
-    <Compile Include="InspectionFolder\InspectionVmFactory.cs" />
-    <Compile Include="InspectionFolder\InspectionVmFactory1.cs" />
+    <Compile Include="DomainViewModel\CustomerViewModel.cs" />
+    <Compile Include="DomainViewModelFactory1\CustomerViewModelFactory1.cs" />
+    <Compile Include="DomainViewModelFactory2\CustomerViewModelFactory2.cs" />
+    <Compile Include="DomainClass\Faktura.cs" />
+    <Compile Include="DomainCatalog\FakturaCatalog.cs" />
+    <Compile Include="DomainDetailsViewModel\FakturaDetailsVM.cs" />
+    <Compile Include="DomainItemViewModel\FakturaItemVM.cs" />
+    <Compile Include="DomainMasterDetailsViewModel\FakturaMasterDetailVm.cs" />
+    <Compile Include="DomainViewModel\FakturaVM.cs" />
+    <Compile Include="DomainViewModelFactory1\FakturaViewModelFactory1.cs" />
+    <Compile Include="DomainViewModelFactory2\FakturaViewModelFactory2.cs" />
+    <Compile Include="DomainClass\Inspection.cs" />
+    <Compile Include="DomainCatalog\InspectionCatalog.cs" />
+    <Compile Include="DomainDetailsViewModel\InspectionDetailsVm.cs" />
+    <Compile Include="DomainItemViewModel\InspectionItemVm.cs" />
+    <Compile Include="DomainMasterDetailsViewModel\InspectionMasterDetailsVm.cs" />
+    <Compile Include="DomainViewModel\InspectionVm.cs" />
+    <Compile Include="DomainViewModelFactory2\InspectionViewModelFactory2.cs" />
+    <Compile Include="DomainViewModelFactory1\InspectionViewModelFactory1.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPageVM.cs" />
     <Compile Include="ObjectProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SummerHouseFolder\SummerHouse.cs" />
-    <Compile Include="SummerHouseFolder\SummerHouseView.xaml.cs">
+    <Compile Include="DomainClass\SummerHouse.cs" />
+    <Compile Include="DomainView\SummerHouseView.xaml.cs">
       <DependentUpon>SummerHouseView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SummerHouseFolder\SummerHouseVm.cs" />
-    <Compile Include="SummerHouseFolder\SummerHouseVmFactory1.cs" />
-    <Compile Include="SummerHouseFolder\SummerHouseCatalog.cs" />
-    <Compile Include="SummerHouseFolder\SummerHouseDetailsVm.cs" />
-    <Compile Include="SummerHouseFolder\SummerHouseItemVm.cs" />
-    <Compile Include="SummerHouseFolder\SummerHouseMasterDetailsVm.cs" />
-    <Compile Include="SummerHouseFolder\SummerhouseVmFactory2.cs" />
+    <Compile Include="DomainViewModel\SummerHouseVm.cs" />
+    <Compile Include="DomainViewModelFactory1\SummerHouseViewModelFactory1.cs" />
+    <Compile Include="DomainCatalog\SummerHouseCatalog.cs" />
+    <Compile Include="DomainDetailsViewModel\SummerHouseDetailsVm.cs" />
+    <Compile Include="DomainItemViewModel\SummerHouseItemVm.cs" />
+    <Compile Include="DomainMasterDetailsViewModel\SummerHouseMasterDetailsVm.cs" />
+    <Compile Include="DomainViewModelFactory2\SummerhouseViewModelFactory2.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -163,14 +163,14 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
-    <Content Include="SummerHouseFolder\Møns klint.jpg" />
+    <Content Include="Assets\Møns klint.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="CustomerFolder\CustomerView.xaml">
+    <Page Include="DomainView\CustomerView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -178,7 +178,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SummerHouseFolder\SummerHouseView.xaml">
+    <Page Include="DomainView\SummerHouseView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -10,8 +10,11 @@ namespace _2SemesterProjekt
     class CustomerItemViewModel : DataWrapper<CustomerViewModel>
 
     {
-        protected CustomerItemViewModel(CustomerViewModel obj) : base(obj)
+        public CustomerItemViewModel(CustomerViewModel obj) : base(obj)
         {
         }
-    }
+
+        public string Description
+        { get { return DataObject.Name; } }
+        }
 }
