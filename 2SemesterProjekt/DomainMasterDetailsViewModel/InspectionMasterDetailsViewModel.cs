@@ -7,7 +7,7 @@ using ExtensionsViewModel.Implementation;
 
 namespace _2SemesterProjekt.InspectionFolder
 {
-    class InspectionMasterDetailsVm : MasterDetailsViewModelCRUD<Inspection, InspectionVm, Inspection>
+   public class InspectionMasterDetailsVm : MasterDetailsViewModelCRUD<Inspection, InspectionVm, Inspection>
     {
         public InspectionMasterDetailsVm()
             : base(new InspectionVmFactory1(),

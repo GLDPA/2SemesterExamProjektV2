@@ -108,6 +108,9 @@
     <Compile Include="DomainDetailsViewModel\CustomerDetailsViewModel.cs" />
     <Compile Include="DomainItemViewModel\CustomerItemViewModel.cs" />
     <Compile Include="DomainMasterDetailsViewModel\CustomerMasterDetailsViewModel.cs" />
+    <Compile Include="DomainView\BookingView.xaml.cs">
+      <DependentUpon>BookingView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DomainView\CustomerView.xaml.cs">
       <DependentUpon>CustomerView.xaml</DependentUpon>
     </Compile>
@@ -130,6 +133,12 @@
     <Compile Include="DomainViewModel\InspectionViewModel.cs" />
     <Compile Include="DomainViewModelFactory2\InspectionViewModelFactory2.cs" />
     <Compile Include="DomainViewModelFactory1\InspectionViewModelFactory1.cs" />
+    <Compile Include="DomainView\FakturaView.xaml.cs">
+      <DependentUpon>FakturaView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DomainView\InspectionView.xaml.cs">
+      <DependentUpon>InspectionView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -170,7 +179,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="DomainView\BookingView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DomainView\CustomerView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DomainView\FakturaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DomainView\InspectionView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
