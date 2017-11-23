@@ -5,13 +5,13 @@
     xmlns:local="using:_2SemesterProjekt.DomainView"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:bookingFolder="using:_2SemesterProjekt.BookingFolder"
     mc:Ignorable="d">
-    <Page.DataContext>
-        <bookingFolder:BookingMasterDetailsViewModel></bookingFolder:BookingMasterDetailsViewModel>
-    </Page.DataContext>
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/Møns klint.jpg"/>
+        </Grid.Background>
         <StackPanel HorizontalAlignment="Left" Height="109" VerticalAlignment="Top" Width="188" Margin="24,22,0,0">
             <TextBlock HorizontalAlignment="Left" Height="43" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" FontSize="24" FontWeight="Bold">
                 <Run Text="Booking"/>
@@ -44,6 +44,7 @@
                         <CompositeTransform Rotation="180.042" ScaleX="-1"/>
                     </Button.RenderTransform>
                 </Button>
+                
                 <Button Content="Annuller" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="188.558" RenderTransformOrigin="0.5,0.5" Margin="100,0.136,0,-0.223" UseLayoutRounding="False" d:LayoutRounding="Auto" FontSize="20" FontWeight="Bold" Background="#33FFFFFF" BorderBrush="Black">
                     <Button.RenderTransform>
                         <CompositeTransform ScaleX="-1" Rotation="-179.948"/>
@@ -62,11 +63,13 @@
             <TextBox HorizontalAlignment="Left" Height="59" TextWrapping="Wrap" Text="{Binding DataObject.NumberOfAnimals, Mode=TwoWay}" VerticalAlignment="Top" Width="369"/>
             <ComboBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,60,0" Height="59"/>
         </StackPanel>
+        
         <StackPanel HorizontalAlignment="Left" Height="103" Margin="77,944,0,0" VerticalAlignment="Top" Width="200">
             <Button Click="GoToMainPage" Content="Home" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="172" FontSize="20" FontWeight="Bold" Background="{ThemeResource AccentButtonForegroundPointerOver}" BorderBrush="Black" />
         </StackPanel>
+        
         <StackPanel HorizontalAlignment="Left" Height="103" Margin="324,944,0,0" VerticalAlignment="Top" Width="245">
-            <Button Content="Booking katalog" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="211" FontWeight="Bold" FontSize="20" Background="{ThemeResource AccentButtonForeground}" BorderBrush="Black" Click="Button_Click"/>
+            <Button Content="Booking katalog" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="211" FontWeight="Bold" FontSize="20" Background="{ThemeResource AccentButtonForeground}" BorderBrush="Black"/>
         </StackPanel>
 
     </Grid>

@@ -7,7 +7,7 @@ using DataTransformation.Implementation;
 
 namespace _2SemesterProjekt.InspectionFolder
 {
-    class InspectionVm :TransformedWithDefaultBase<Inspection>
+   public class InspectionVm :TransformedWithDefaultBase<Inspection>
     {
         public bool IsClean { get; set; }
         public bool KeyIsReturned { get; set; }

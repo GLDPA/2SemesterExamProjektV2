@@ -9,7 +9,10 @@
     mc:Ignorable="d">
 
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/Møns klint.jpg"/>
+        </Grid.Background>
         <StackPanel HorizontalAlignment="Left" Height="109" VerticalAlignment="Top" Width="188" Margin="24,22,0,0">
             <TextBlock HorizontalAlignment="Left" Height="43" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" FontSize="24" FontWeight="Bold">
                 <Run Text="Booking"/>
@@ -21,7 +24,7 @@
         <StackPanel HorizontalAlignment="Left" Height="1009" Margin="1213,22,0,0" VerticalAlignment="Top" Width="682" Background="{ThemeResource AccentButtonForeground}">
             <StackPanel Height="481" Width="217" HorizontalAlignment="Left">
                 <TextBlock TextWrapping="Wrap" Text="Key is Retuned" Height="59" />
-                <TextBlock TextWrapping="Wrap" Text="Sheets hae been changed" Height="59" SelectionChanged="TextBlock_SelectionChanged_1"/>
+                <TextBlock TextWrapping="Wrap" Text="Sheets hae been changed" Height="59"/>
                 <TextBlock TextWrapping="Wrap" Text="House is in order" Height="59"/>
                 <TextBlock TextWrapping="Wrap" Text="House is clean" Height="59"/>
             </StackPanel>
@@ -44,17 +47,17 @@
         </StackPanel>
 
         <StackPanel HorizontalAlignment="Left" Height="562" Margin="1466,38,0,0" VerticalAlignment="Top" Width="429">
-            <CheckBox Content="" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="59
-"/>
+            <CheckBox Content="" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="59"/>
             <CheckBox Content="" DataContext="{Binding }" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="59 "/>
             <CheckBox Content="" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="59 "/>
             <CheckBox Content="" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="59 "/>
         </StackPanel>
+        
         <StackPanel HorizontalAlignment="Left" Height="103" Margin="77,944,0,0" VerticalAlignment="Top" Width="200">
             <Button Click="GoToMainPage" Content="Home" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="172" FontSize="20" FontWeight="Bold" Background="{ThemeResource AccentButtonForegroundPointerOver}" BorderBrush="Black" />
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="103" Margin="324,944,0,0" VerticalAlignment="Top" Width="245">
-            <Button Content="Inspection katalog" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="211" FontWeight="Bold" FontSize="20" Background="{ThemeResource AccentButtonForeground}" BorderBrush="Black" Click="Button_Click"/>
+            <Button Content="Inspection katalog" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="211" FontWeight="Bold" FontSize="20" Background="{ThemeResource AccentButtonForeground}" BorderBrush="Black"/>
         </StackPanel>
     </Grid>
 </Page>

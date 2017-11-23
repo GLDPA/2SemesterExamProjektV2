@@ -8,7 +8,7 @@ using InMemoryStorage.Implementation;
 
 namespace _2SemesterProjekt.InspectionFolder
 {
-    class Inspection : TransformedBase<Inspection>
+    public class Inspection : TransformedBase<Inspection>
     {
         public bool IsClean { get; set; }
         public bool KeyIsReturned { get; set; }

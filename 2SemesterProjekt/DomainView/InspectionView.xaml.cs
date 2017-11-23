@@ -27,14 +27,9 @@ namespace _2SemesterProjekt.DomainView
             this.InitializeComponent();
         }
 
-        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        private void GoToMainPage(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void TextBlock_SelectionChanged_1(object sender, RoutedEventArgs e)
-        {
-
+            this.Frame.Navigate(typeof(MainPage), null);
         }
     }
 }
