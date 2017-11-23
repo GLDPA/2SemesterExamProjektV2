@@ -98,10 +98,10 @@
     <Compile Include="DomainClass\Booking.cs" />
     <Compile Include="DomainCatalog\BookingCatalog.cs" />
     <Compile Include="DomainDetailsViewModel\BookingDetailsViewModel.cs" />
-    <Compile Include="DomainItemViewModel\BookingItemVm.cs" />
+    <Compile Include="DomainItemViewModel\BookingItemViewModel.cs" />
     <Compile Include="DomainMasterDetailsViewModel\BookingMasterDetailsViewModel.cs" />
     <Compile Include="DomainViewModelFactory1\BookingViewModelFactory1.cs" />
-    <Compile Include="DomainViewModel\BookingVm.cs" />
+    <Compile Include="DomainViewModel\BookingViewModel.cs" />
     <Compile Include="DomainViewModelFactory2\BookingViewModelFactory2.cs" />
     <Compile Include="DomainClass\Customer .cs" />
     <Compile Include="DomainCatalog\CustomerCatalog.cs" />
@@ -116,36 +116,36 @@
     <Compile Include="DomainViewModelFactory2\CustomerViewModelFactory2.cs" />
     <Compile Include="DomainClass\Faktura.cs" />
     <Compile Include="DomainCatalog\FakturaCatalog.cs" />
-    <Compile Include="DomainDetailsViewModel\FakturaDetailsVM.cs" />
-    <Compile Include="DomainItemViewModel\FakturaItemVM.cs" />
-    <Compile Include="DomainMasterDetailsViewModel\FakturaMasterDetailVm.cs" />
-    <Compile Include="DomainViewModel\FakturaVM.cs" />
+    <Compile Include="DomainDetailsViewModel\FakturaDetailsViewModel.cs" />
+    <Compile Include="DomainItemViewModel\FakturaItemViewModel.cs" />
+    <Compile Include="DomainMasterDetailsViewModel\FakturaMasterDetailViewModel.cs" />
+    <Compile Include="DomainViewModel\FakturaViewModel.cs" />
     <Compile Include="DomainViewModelFactory1\FakturaViewModelFactory1.cs" />
     <Compile Include="DomainViewModelFactory2\FakturaViewModelFactory2.cs" />
     <Compile Include="DomainClass\Inspection.cs" />
     <Compile Include="DomainCatalog\InspectionCatalog.cs" />
-    <Compile Include="DomainDetailsViewModel\InspectionDetailsVm.cs" />
-    <Compile Include="DomainItemViewModel\InspectionItemVm.cs" />
-    <Compile Include="DomainMasterDetailsViewModel\InspectionMasterDetailsVm.cs" />
-    <Compile Include="DomainViewModel\InspectionVm.cs" />
+    <Compile Include="DomainDetailsViewModel\InspectionDetailsViewModel.cs" />
+    <Compile Include="DomainItemViewModel\InspectionItemViewModel.cs" />
+    <Compile Include="DomainMasterDetailsViewModel\InspectionMasterDetailsViewModel.cs" />
+    <Compile Include="DomainViewModel\InspectionViewModel.cs" />
     <Compile Include="DomainViewModelFactory2\InspectionViewModelFactory2.cs" />
     <Compile Include="DomainViewModelFactory1\InspectionViewModelFactory1.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPageVM.cs" />
-    <Compile Include="ObjectProvider.cs" />
+    <Compile Include="DomainObjectProvider\ObjectProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DomainClass\SummerHouse.cs" />
     <Compile Include="DomainView\SummerHouseView.xaml.cs">
       <DependentUpon>SummerHouseView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DomainViewModel\SummerHouseVm.cs" />
+    <Compile Include="DomainViewModel\SummerHouseViewModel.cs" />
     <Compile Include="DomainViewModelFactory1\SummerHouseViewModelFactory1.cs" />
     <Compile Include="DomainCatalog\SummerHouseCatalog.cs" />
     <Compile Include="DomainDetailsViewModel\SummerHouseDetailsVm.cs" />
-    <Compile Include="DomainItemViewModel\SummerHouseItemVm.cs" />
-    <Compile Include="DomainMasterDetailsViewModel\SummerHouseMasterDetailsVm.cs" />
+    <Compile Include="DomainItemViewModel\SummerHouseItemViewModel.cs" />
+    <Compile Include="DomainMasterDetailsViewModel\SummerHouseMasterDetailsViewModel.cs" />
     <Compile Include="DomainViewModelFactory2\SummerhouseViewModelFactory2.cs" />
   </ItemGroup>
   <ItemGroup>
