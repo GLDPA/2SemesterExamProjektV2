@@ -167,7 +167,6 @@
     <Compile Include="FakturaFolder\FakturaVM.cs" />
     <Compile Include="FakturaFolder\FakturaVmFactory1.cs" />
     <Compile Include="FakturaFolder\FakturaVmFactory2.cs" />
-<<<<<<< HEAD
     <Compile Include="InspectionFolder\Inspection.cs" />
     <Compile Include="InspectionFolder\InspectionCatalog.cs" />
     <Compile Include="InspectionFolder\InspectionDetailsVm.cs" />
@@ -192,8 +191,6 @@
     <Compile Include="Faktura\FakturaVmFactory1.cs" />
     <Compile Include="Faktura\FakturaVmFactory2.cs" />
 >>>>>>> parent of ee86964... Renaming
-=======
->>>>>>> parent of a5f8445... Inspection - view
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -277,7 +274,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.0.1</Version>
+      <Version>6.0.2</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
