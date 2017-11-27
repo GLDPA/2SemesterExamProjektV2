@@ -109,9 +109,6 @@
     <Compile Include="DomainDetailsViewModel\CustomerDetailsViewModel.cs" />
     <Compile Include="DomainItemViewModel\CustomerItemViewModel.cs" />
     <Compile Include="DomainMasterDetailsViewModel\CustomerMasterDetailsViewModel.cs" />
-    <Compile Include="DomainView\BookingView.xaml.cs">
-      <DependentUpon>BookingView.xaml</DependentUpon>
-    </Compile>
     <Compile Include="DomainView\CustomerView.xaml.cs">
       <DependentUpon>CustomerView.xaml</DependentUpon>
     </Compile>
@@ -134,6 +131,7 @@
     <Compile Include="DomainViewModel\InspectionVm.cs" />
     <Compile Include="DomainViewModelFactory2\InspectionViewModelFactory2.cs" />
     <Compile Include="DomainViewModelFactory1\InspectionViewModelFactory1.cs" />
+<<<<<<< HEAD
     <Compile Include="DomainView\FakturaView.xaml.cs">
       <DependentUpon>FakturaView.xaml</DependentUpon>
     </Compile>
@@ -177,6 +175,8 @@
     <Compile Include="InspectionFolder\InspectionVmFactory.cs" />
     <Compile Include="InspectionFolder\InspectionVmFactory1.cs" />
 >>>>>>> parent of 6bcf8cb... Organisation af klasser
+=======
+>>>>>>> parent of f110baf... views på inspection og booking
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -218,22 +218,17 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Page Include="DomainView\BookingView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+>>>>>>> parent of f110baf... views på inspection og booking
     <Page Include="DomainView\CustomerView.xaml">
 =======
     <Page Include="CustomerFolder\CustomerView.xaml">
 >>>>>>> parent of 6bcf8cb... Organisation af klasser
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="DomainView\FakturaView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="DomainView\InspectionView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -12,7 +12,7 @@
     
     <Grid>
         <Grid.Background>
-            <ImageBrush Stretch="Fill" ImageSource="Assets/Møns klint.jpg"/>
+            <ImageBrush Stretch="Fill" ImageSource="SummerHouseMappe/Møns klint.jpg"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="341*"/>
