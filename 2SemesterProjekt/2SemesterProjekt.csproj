@@ -205,6 +205,7 @@
       <DependentUpon>SummerHouseView.xaml</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="SummerHouseMappe\SummerHouseVm.cs" />
     <Compile Include="SummerHouseMappe\SummerHouseVmFactory1.cs" />
     <Compile Include="SummerHouseMappe\SummerHouseCatalog.cs" />
@@ -213,6 +214,8 @@
     <Compile Include="SummerHouseMappe\SummerHouseMasterDetailsVm.cs" />
     <Compile Include="SummerHouseMappe\SummerhouseVmFactory2.cs" />
 =======
+=======
+>>>>>>> parent of 23a4826... Revert "Renaming, så alt matcher"
     <Compile Include="DomainViewModel\SummerHouseViewModel.cs" />
     <Compile Include="DomainViewModelFactory1\SummerHouseViewModelFactory1.cs" />
     <Compile Include="DomainCatalog\SummerHouseCatalog.cs" />
