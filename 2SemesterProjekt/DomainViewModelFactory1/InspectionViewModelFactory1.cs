@@ -7,7 +7,7 @@ using DataTransformation.Implementation;
 
 namespace _2SemesterProjekt.InspectionFolder
 {
-    class InspectionVmFactory1 :FactoryBase<Inspection, InspectionVm>
+    class InspectionVmFactory2 :FactoryBase<Inspection, InspectionVm>
     {
         public override Inspection CreateDomainObject(InspectionVm tObj)
         {
