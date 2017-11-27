@@ -149,11 +149,6 @@
     <Compile Include="DomainView\SummerHouseView.xaml.cs">
       <DependentUpon>SummerHouseView.xaml</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     <Compile Include="SummerHouseMappe\SummerHouseVm.cs" />
     <Compile Include="SummerHouseMappe\SummerHouseVmFactory1.cs" />
     <Compile Include="SummerHouseMappe\SummerHouseCatalog.cs" />
