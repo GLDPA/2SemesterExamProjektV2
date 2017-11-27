@@ -153,6 +153,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="SummerHouseMappe\SummerHouseVm.cs" />
     <Compile Include="SummerHouseMappe\SummerHouseVmFactory1.cs" />
     <Compile Include="SummerHouseMappe\SummerHouseCatalog.cs" />
@@ -182,11 +183,14 @@
 >>>>>>> parent of 67b16af... Revert "Renaming"
 =======
     <Compile Include="DomainViewModel\SummerHouseVm.cs" />
+=======
+    <Compile Include="DomainViewModel\SummerHouseViewModel.cs" />
+>>>>>>> parent of 23a4826... Revert "Renaming, så alt matcher"
     <Compile Include="DomainViewModelFactory1\SummerHouseViewModelFactory1.cs" />
     <Compile Include="DomainCatalog\SummerHouseCatalog.cs" />
     <Compile Include="DomainDetailsViewModel\SummerHouseDetailsVm.cs" />
-    <Compile Include="DomainItemViewModel\SummerHouseItemVm.cs" />
-    <Compile Include="DomainMasterDetailsViewModel\SummerHouseMasterDetailsVm.cs" />
+    <Compile Include="DomainItemViewModel\SummerHouseItemViewModel.cs" />
+    <Compile Include="DomainMasterDetailsViewModel\SummerHouseMasterDetailsViewModel.cs" />
     <Compile Include="DomainViewModelFactory2\SummerhouseViewModelFactory2.cs" />
 >>>>>>> parent of bb39b13... Revert "Organisation af klasser"
   </ItemGroup>
