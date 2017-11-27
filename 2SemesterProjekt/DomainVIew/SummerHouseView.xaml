@@ -21,7 +21,7 @@
             <ColumnDefinition Width="299*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush Stretch="Fill" ImageSource="Assets/Møns klint.jpg"/>
+            <ImageBrush Stretch="Fill" ImageSource="Møns klint.jpg"/>
         </Grid.Background>
         
         <StackPanel HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="162">
