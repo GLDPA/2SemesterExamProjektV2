@@ -12,12 +12,12 @@ namespace _2SemesterProjekt
     {
         public override IDataWrapper<CustomerViewModel> CreateDetailsViewModel(CustomerViewModel obj)
         {
-            return new CustomerDetailsViewModel(obj);
+            throw new NotImplementedException();
         }
 
         public override IDataWrapper<CustomerViewModel> CreateItemViewModel(CustomerViewModel obj)
         {
-            return new CustomerItemViewModel(obj);
+            throw new NotImplementedException();
         }
     }
 }

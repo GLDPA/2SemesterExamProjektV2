@@ -24,7 +24,7 @@ namespace _2SemesterProjekt.InspectionFolder
             }
         }
 
-        public InspectionCatalog() : base(new InspectionVmFactory2())
+        public InspectionCatalog() : base(new InspectionVmFactory1())
         {
         }
     }
